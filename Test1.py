@@ -30,10 +30,10 @@ for i in range(1, 11):
             value = input("Enter value: ")
             my_dict[key] = value
         print("Dictionary contents:", my_dict)
-
+ 
         # Function to check if a number is prime
         def is_prime(n):
-            
+ 
             if n <= 1:
                 return False
             for i in range(2, int(n**0.5) + 1):
